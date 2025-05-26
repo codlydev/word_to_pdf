@@ -1,16 +1,37 @@
-# word_to_pdf
+# Word to PDF Converter (Flutter + Python)
 
-A new Flutter project.
+This project allows you to convert `.docx` (Word) files to `.pdf` using a Flutter app and a Python Flask backend. The conversion uses LibreOffice to preserve formatting, images, fonts, borders, headers, footers, and emojis.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠️ Technologies Used
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter (Android app)
+- Python Flask (backend API)
+- LibreOffice (for high-quality DOCX to PDF conversion)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Features
+
+- Select `.docx` file from Android device
+- Upload to server
+- Convert to PDF with full formatting
+- Download and share the PDF
+
+---
+
+## 🚀 How to Run
+
+### 1. Backend (Flask)
+
+#### Requirements:
+- Python 3
+- Flask
+- LibreOffice installed on Windows
+
+#### Install dependencies:
+```bash
+pip install flask
+
+
